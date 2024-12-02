@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Initialize global variables
-reap = False
+reap = False #To manage loops related to "Sleeping" vs. "Awake"
 online = True
 
 # Initialize speech recognition and text-to-speech
